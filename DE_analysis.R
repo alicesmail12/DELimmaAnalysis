@@ -9,7 +9,7 @@ BiocManager::install("limma")
 BiocManager::install("GO.db")
 install.packages("org.Hs.eg.db", repos="http://bioconductor.org/packages/3.17/data/annotation")
 
-# Load
+# Load packages
 library(tidyverse)
 library(dplyr)
 library(Biobase)
