@@ -1,0 +1,11 @@
+﻿sample,id,age,disease
+sample_1,1,43,yes
+sample_2,2,48,yes
+sample_3,3,65,yes
+sample_4,4,24,yes
+sample_5,5,37,yes
+sample_6,6,82,no
+sample_7,7,57,no
+sample_8,8,32,no
+sample_9,9,40,no
+sample_10,10,47,no
