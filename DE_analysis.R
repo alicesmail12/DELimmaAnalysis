@@ -1,3 +1,4 @@
+# Install packages
 install.packages("BiocManager")
 install.packages("tidyverse")
 install.packages("dplyr")
@@ -8,12 +9,11 @@ BiocManager::install("limma")
 BiocManager::install("GO.db")
 install.packages("org.Hs.eg.db", repos="http://bioconductor.org/packages/3.17/data/annotation")
 
+# Load
 library(tidyverse)
 library(dplyr)
 library(Biobase)
 library(limma)
-
-setwd("/Users/alicesmail/Desktop/Programming/DE Analysis")
 
 # Import data
 x_df = read.csv("expression_matrix.csv")
