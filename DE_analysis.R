@@ -50,7 +50,6 @@ table(pData(eset)[, "disease"])
 # Testing with limma
 cm <- makeContrasts(status = diseaseyes - diseaseno,
                     levels=design)
-cm
 
 # Fit model
 fit <- lmFit(eset, design)
